@@ -4,6 +4,8 @@ Below command will list git branches with committer date older than a certain cu
 
 This can be executed in a powershell prompt .
 
+NOTE: The default master branch in this command is PRODUCTION and the branch pattern is referred as *promotion* 
+
 $cutoffdate = "2020-03-01" 
 $cutoffdate=[datetime]::ParseExact("$cutoffdate", 'yyyy-MM-dd', $null);
 
